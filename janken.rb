@@ -41,7 +41,6 @@ class Janken
     janken = ["Goo", "Choki", "Par"]
     #「相手の手は#{相手の手}です。」と出力させます。
     puts "相手の手は #{janken[enemy_hand]}です。"
-    puts player_hand.to_i==enemy_hand.to_i 
       if player_hand.to_i==enemy_hand.to_i 
         puts "あいこ 愛子が出ています"
         return true
