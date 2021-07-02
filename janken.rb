@@ -47,7 +47,7 @@ class Janken
         return true
         # Renvoie "true" pour exécuter à plusieurs reprises des roche-papier-ciseaux.
         # ヒント：「return」を使って戻り値を返すことができます。しかし、Rubyでは戻り値を返す場合、「return」を省略するのが一般的です。
-         elsif (player_hand.to_i - enemy_hand.to_i+3)%3==1
+         elsif (player_hand.to_i - enemy_hand.to_i+3)%3==2
             puts "「あなたの勝ちです」を出力します。"
             return false
              else
